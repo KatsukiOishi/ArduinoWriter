@@ -9770,18 +9770,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="80.01" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="81.28" y="99.06" smashed="yes"/>
-<instance part="R7" gate="G$1" x="92.71" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="91.44" y="109.22" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="91.44" y="114.3" size="1.778" layer="96" rot="R90"/>
+<instance part="R7" gate="G$1" x="81.28" y="72.39" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.01" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="80.01" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY16" gate="GND" x="92.71" y="99.06" smashed="yes"/>
+<instance part="SUPPLY16" gate="GND" x="81.28" y="57.15" smashed="yes"/>
 <instance part="ISPMODE" gate="G$1" x="81.28" y="104.14" smashed="yes">
 <attribute name="NAME" x="84.836" y="102.108" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="86.995" y="102.108" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SEWRMODE" gate="G$1" x="92.71" y="104.14" smashed="yes">
-<attribute name="NAME" x="96.266" y="102.108" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="98.425" y="102.108" size="1.778" layer="96" rot="R90"/>
+<instance part="SEWRMODE" gate="G$1" x="81.28" y="62.23" smashed="yes">
+<attribute name="NAME" x="84.836" y="60.198" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="86.995" y="60.198" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R8" gate="G$1" x="104.14" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="102.87" y="109.22" size="1.778" layer="95" rot="R90"/>
@@ -10077,9 +10077,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="133.35" y="255.27" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="92.71" y1="119.38" x2="92.71" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="77.47" x2="81.28" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<label x="92.71" y="120.65" size="1.778" layer="95" rot="R90"/>
+<label x="81.28" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="WR_SW" class="0">

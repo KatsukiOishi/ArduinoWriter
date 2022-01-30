@@ -9783,29 +9783,29 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="84.836" y="60.198" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="86.995" y="60.198" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="104.14" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.87" y="109.22" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="102.87" y="114.3" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="92.71" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="109.22" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="91.44" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY17" gate="GND" x="104.14" y="99.06" smashed="yes"/>
-<instance part="5V" gate="G$1" x="104.14" y="104.14" smashed="yes">
-<attribute name="NAME" x="107.696" y="102.108" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.855" y="102.108" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY17" gate="GND" x="92.71" y="99.06" smashed="yes"/>
+<instance part="5V" gate="G$1" x="92.71" y="104.14" smashed="yes">
+<attribute name="NAME" x="96.266" y="102.108" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="98.425" y="102.108" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="114.3" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.03" y="109.22" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="113.03" y="114.3" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="102.87" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.6" y="109.22" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="101.6" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY18" gate="GND" x="114.3" y="99.06" smashed="yes"/>
-<instance part="3.3V" gate="G$1" x="114.3" y="104.14" smashed="yes">
-<attribute name="NAME" x="117.856" y="102.108" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.015" y="102.108" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY18" gate="GND" x="102.87" y="99.06" smashed="yes"/>
+<instance part="3.3V" gate="G$1" x="102.87" y="104.14" smashed="yes">
+<attribute name="NAME" x="106.426" y="102.108" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="108.585" y="102.108" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY19" gate="+5V" x="104.14" y="121.92" smashed="yes">
-<attribute name="VALUE" x="102.235" y="125.095" size="1.778" layer="96"/>
+<instance part="SUPPLY19" gate="+5V" x="92.71" y="121.92" smashed="yes">
+<attribute name="VALUE" x="90.805" y="125.095" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="114.3" y="121.92" smashed="yes">
-<attribute name="VALUE" x="112.395" y="125.095" size="1.778" layer="96"/>
+<instance part="U$3" gate="G$1" x="102.87" y="121.92" smashed="yes">
+<attribute name="VALUE" x="100.965" y="125.095" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

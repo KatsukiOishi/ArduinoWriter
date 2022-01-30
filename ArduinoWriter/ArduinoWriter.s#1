@@ -10286,6 +10286,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="170.18" y1="179.07" x2="184.15" y2="179.07" width="0.1524" layer="91"/>
 <label x="171.45" y="179.07" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="PROG_SUP" gate="G$1" pin="NO"/>
+<wire x1="166.37" y1="118.11" x2="162.56" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="118.11" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
+<label x="160.02" y="116.84" size="1.778" layer="95" rot="R270"/>
+</segment>
 </net>
 </nets>
 </sheet>
