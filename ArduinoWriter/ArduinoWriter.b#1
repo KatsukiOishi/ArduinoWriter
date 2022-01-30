@@ -834,8 +834,12 @@ design rules under a new name.</description>
 <contactref element="U1" pad="RESET"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="IC2" pad="2"/>
+<contactref element="IC2" pad="10"/>
+<contactref element="IC2" pad="13"/>
 <wire x1="12.64" y1="-39.61" x2="5.02" y2="-39.61" width="0" layer="19" extent="1-1"/>
-<wire x1="33.03" y1="2.5" x2="12.64" y2="-39.61" width="0" layer="19" extent="1-1"/>
+<wire x1="5.02" y1="-31.99" x2="5.02" y2="-39.61" width="0" layer="19" extent="1-1"/>
+<wire x1="12.64" y1="-31.99" x2="12.64" y2="-39.61" width="0" layer="19" extent="1-1"/>
+<wire x1="33.03" y1="2.5" x2="12.64" y2="-31.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SE_SW">
 <contactref element="R1" pad="2"/>
@@ -855,16 +859,11 @@ design rules under a new name.</description>
 <wire x1="2.48" y1="-39.61" x2="1.35" y2="-48.5" width="0" layer="19" extent="1-1"/>
 <wire x1="15.18" y1="-31.99" x2="2.48" y2="-39.61" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="WRITER_RX">
+<signal name="WRITER_RESET1">
 <contactref element="IC2" pad="8"/>
 </signal>
-<signal name="SE_RX">
+<signal name="SE_RESET1">
 <contactref element="IC2" pad="11"/>
-</signal>
-<signal name="PCTX_ICRX">
-<contactref element="IC2" pad="10"/>
-<contactref element="IC2" pad="13"/>
-<wire x1="12.64" y1="-31.99" x2="5.02" y2="-31.99" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
