@@ -9682,6 +9682,304 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="タクトスイッチ">
+<packages>
+<package name="TS-06104" urn="urn:adsk.eagle:footprint:29147265/1">
+<wire x1="-3.05" y1="-3.05" x2="3.05" y2="-3.05" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-3.05" x2="3.05" y2="3.05" width="0.127" layer="21"/>
+<wire x1="3.05" y1="3.05" x2="-3.05" y2="3.05" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="3.05" x2="-3.05" y2="-3.05" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>
+<smd name="A2" x="4.1" y="2.25" dx="1" dy="1.8" layer="1" rot="R90"/>
+<smd name="B2" x="4.1" y="-2.25" dx="1" dy="1.8" layer="1" rot="R90"/>
+<smd name="A1" x="-4.1" y="2.25" dx="1" dy="1.8" layer="1" rot="R90"/>
+<smd name="B1" x="-4.1" y="-2.25" dx="1" dy="1.8" layer="1" rot="R90"/>
+<text x="-3.2" y="-4.7" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TS-06104" urn="urn:adsk.eagle:package:29147268/2" type="model">
+<packageinstances>
+<packageinstance name="TS-06104"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TS-0606-F-N" urn="urn:adsk.eagle:symbol:29147267/1" locally_modified="yes">
+<pin name="T1" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="T2" x="7.62" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="T4" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="T3" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.254" layer="94" style="shortdash"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94" style="shortdash"/>
+<text x="-3.81" y="-6.35" size="1.27" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-8.89" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TS-06104" urn="urn:adsk.eagle:component:29147270/1" locally_modified="yes" prefix="SW">
+<description>&lt;h2&gt;表面実装用タクトスイッチ　ＴＳ－０６１０４&lt;/h2&gt;
+							
+							[TS-06104]&lt;br&gt;
+							通販コード　P-15969&lt;br&gt;
+							
+							発売日　2020/12/16&lt;br&gt;
+							
+							&lt;span style="white-space: nowrap;"&gt;メーカーカテゴリ　&lt;a href="/catalog/goods/search.aspx?maker=jinbeili&amp;style=T&amp;search.x=true"&gt;XIAMEN JINBEILI ELECTRONICS CO.,LTD&lt;/a&gt;&lt;/span&gt;&lt;br&gt;
+							
+							
+							
+							
+							
+							
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					
+					&lt;tr&gt;
+						&lt;td height="20"&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					&lt;tr&gt;
+						&lt;td valign="top"&gt;
+							表面実装タイプのタクトスイッチです。&lt;span&gt;こちらはお客様からご要望を頂き販売を開始いたしました。各種部品、半導体、機構部品等のご要望をお待ちしております。&lt;a href="/catalog/c/cparts99"&gt;商品リクエスト入力フォーム&lt;/a&gt;&lt;/span&gt;
+
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					
+
+					
+
+					
+					&lt;tr&gt;
+						&lt;td valign="top"&gt;
+							&lt;br&gt;
+							■主な仕様&lt;br&gt;
+							・種別：タクトスイッチ&lt;br&gt;・表記：A接点&lt;br&gt;・回路数：1回路&lt;br&gt;・接点：1接点&lt;br&gt;・定格開閉電圧：12VDC&lt;br&gt;・定格開閉電流：50mA&lt;br&gt;・接触抵抗：2Ω以下&lt;br&gt;・動作：モーメンタリ&lt;br&gt;・取付タイプ：基板取付&lt;br&gt;・電気的接続：表面実装&lt;br&gt;・色：黒&lt;br&gt;・ピン数：4&lt;br&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					
+
+					
+
+					
+
+					
+					&lt;tr&gt;
+						&lt;td valign="top"&gt;
+							&lt;br&gt;
+							&lt;a href="/download/ds/jinbeili/TS-06104.pdf"&gt;&lt;img src="/img/usr/pdf.gif" /&gt;TS-06104 PDFデータシート&lt;/a&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					
+
+					
+					&lt;tr&gt;
+						&lt;td valign="top"&gt;
+							&lt;br&gt;
+							&lt;a href="/catalog/c/ctactsw"&gt;タクトスイッチ各種&lt;/a&gt;&lt;br /&gt;&lt;a href="/catalog/c/ctoggle"&gt;トグルスイッチ各種&lt;/a&gt;&lt;br /&gt;&lt;a href="/catalog/c/csw"&gt;スイッチ各種&lt;/a&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+					
+				&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+			
+		
+		&lt;tr&gt;
+			&lt;td height="20" class="linecart2"&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td valign="top"&gt;
+				&lt;table width="100%" border="0px" cellspacing="0px" cellpadding="0px"&gt;&lt;tr&gt;&lt;td bgcolor="#ffeeff"&gt;&lt;img src="/img/usr/check1.gif" /&gt;&lt;strong&gt;関連商品&lt;/strong&gt;≫&lt;a href="/catalog/c/ckit_dT"&gt;組立ｷｯﾄ&lt;/a&gt; / &lt;a href="/catalog/c/cbread"&gt;ﾌﾞﾚｯﾄﾞﾎﾞｰﾄﾞ&lt;/a&gt; / &lt;a href="/catalog/c/cmicon_dT"&gt;ﾏｲｺﾝ&lt;/a&gt;(&lt;a href="/catalog/c/cpicr"&gt;PIC&lt;/a&gt; &lt;a href="/catalog/c/ch8"&gt;H8&lt;/a&gt; &lt;a href="/catalog/c/crx"&gt;RX&lt;/a&gt;) / &lt;a href="/catalog/c/cusb"&gt;USB&lt;/a&gt; / &lt;a href="/catalog/c/ctr"&gt;TR&lt;/a&gt;(&lt;a href="/catalog/c/cto-220"&gt;TO-220&lt;/a&gt; &lt;a href="/catalog/c/cto-92"&gt;TO-92&lt;/a&gt; &lt;a href="/catalog/c/cto-3p"&gt;TO-3P&lt;/a&gt; &lt;a href="/catalog/c/cctr"&gt;SMD&lt;/a&gt;) / &lt;a href="/catalog/c/cfet"&gt;FET&lt;/a&gt;(&lt;a href="/catalog/c/c2sk"&gt;Nch&lt;/a&gt; &lt;a href="/catalog/c/c2sj"&gt;Pch&lt;/a&gt; &lt;a href="/catalog/c/ccfet"&gt;SMD&lt;/a&gt; &lt;a href="/catalog/goods/search.aspx?keyword=fet+dpak&amp;goods=i&amp;search=x"&gt;TO-252&lt;/a&gt; &lt;a href="/catalog/goods/search.aspx?keyword=sot23&amp;goods=i&amp;name=fet&amp;search=x"&gt;SOT-23&lt;/a&gt;) / &lt;a href="/catalog/c/cdiode"&gt;ﾀﾞｲｵｰﾄﾞ&lt;/a&gt;(&lt;a href="/catalog/c/csilicon"&gt;整流&lt;/a&gt; &lt;a href="/catalog/c/cschottky"&gt;ｼｮｯﾄｷｰ&lt;/a&gt; &lt;a href="/catalog/c/cbridge"&gt;ﾌﾞﾘｯｼﾞ&lt;/a&gt; &lt;a href="/catalog/c/csmddiode"&gt;SMD&lt;/a&gt; &lt;a href="/catalog/c/ccrd"&gt;CRD&lt;/a&gt; &lt;a href="/catalog/c/czd"&gt;ﾂｪﾅ&lt;/a&gt;) / &lt;a href="/catalog/c/cregister"&gt;抵抗&lt;/a&gt;(&lt;a href="/catalog/goods/search.aspx?keyword=%83J%81%5B%83%7B%83%93&amp;search=x"&gt;ｶｰﾎﾞﾝ&lt;/a&gt; &lt;a href="/catalog/goods/search.aspx?keyword=%8B%E0%91%AE%94%E7%96%8C&amp;image=%8C%9F%8D%F5&amp;search=x"&gt;金皮&lt;/a&gt; &lt;a href="/catalog/c/cregi7"&gt;電力&lt;/a&gt; &lt;a href="/catalog/c/cchipreg"&gt;SMD&lt;/a&gt;) / &lt;a href="/catalog/c/ccoil"&gt;ｲﾝﾀﾞｸﾀ&lt;/a&gt; / &lt;a href="/catalog/c/ccap"&gt;ｺﾝﾃﾞﾝｻ&lt;/a&gt;(&lt;a href="/catalog/c/cchemicon"&gt;電解&lt;/a&gt; &lt;a href="/catalog/c/ccap3"&gt;積ｾﾗ&lt;/a&gt; &lt;a href="/catalog/c/ccap8"&gt;ﾁｯﾌﾟ積ｾﾗ&lt;/a&gt; &lt;a href="/catalog/c/ccap2"&gt;電気二重層&lt;/a&gt;) / &lt;a href="/catalog/c/cled_dT"&gt;LED&lt;/a&gt;(&lt;a href="/catalog/c/c3mm"&gt;3mm&lt;/a&gt; &lt;a href="/catalog/c/c5mm"&gt;5mm&lt;/a&gt; &lt;a href="/catalog/c/csuperflx"&gt;角型&lt;/a&gt; &lt;a href="/catalog/c/csmdled"&gt;SMD&lt;/a&gt; &lt;a href="/catalog/c/cblanking"&gt;点滅&lt;/a&gt; &lt;a href="/catalog/c/cpwrled"&gt;ﾊﾟﾜｰ&lt;/a&gt; &lt;a href="/catalog/c/cbar"&gt;ﾊﾞｰ&lt;/a&gt; &lt;a href="/catalog/c/ca7seg"&gt;７ｾｸﾞ&lt;/a&gt;) / &lt;a href="/catalog/c/cclcd"&gt;LCD&lt;/a&gt; / &lt;a href="/catalog/c/cswpower"&gt;ACｱﾀﾞﾌﾟﾀ&lt;/a&gt; / &lt;a href="/catalog/c/cvr"&gt;VR&lt;/a&gt; / &lt;a href="/catalog/c/csw"&gt;SW&lt;/a&gt;(&lt;a href="/catalog/c/ctactsw"&gt;ﾀｸﾄ&lt;/a&gt; &lt;a href="/catalog/c/ctoggle"&gt;ﾄｸﾞﾙ&lt;/a&gt; &lt;a href="/catalog/c/cpushsw"&gt;押ﾎﾞﾀﾝ&lt;/a&gt; &lt;a href="/catalog/c/csw8"&gt;自照式&lt;/a&gt; &lt;a href="/catalog/c/crotarysw"&gt;ﾛｰﾀﾘ&lt;/a&gt; &lt;a href="/catalog/c/cslidesw"&gt;ｽﾗｲﾄﾞ&lt;/a&gt;) / &lt;a href="/catalog/c/ccase"&gt;ｹｰｽ&lt;/a&gt; / &lt;a href="/catalog/c/cboard"&gt;基板&lt;/a&gt;(&lt;a href="/catalog/c/cuboard"&gt;ﾕﾆﾊﾞｰｻﾙ&lt;/a&gt; &lt;a href="/catalog/c/csuboard"&gt;SMD&lt;/a&gt; &lt;a href="/catalog/c/cwithbrd"&gt;DIP化&lt;/a&gt; &lt;a href="/catalog/c/ccpcb"&gt;変換&lt;/a&gt; &lt;a href="/catalog/c/cboard11"&gt;電力&lt;/a&gt; &lt;a href="/catalog/c/calumi"&gt;ｱﾙﾐ&lt;/a&gt;) / &lt;a href="/catalog/c/cheader"&gt;ﾋﾟﾝﾍｯﾀﾞ&lt;/a&gt; / &lt;a href="/catalog/c/cframe"&gt;ﾋﾟﾝｿｹｯﾄ&lt;/a&gt; / &lt;a href="/catalog/c/csen4"&gt;線材&lt;/a&gt; / &lt;a href="/catalog/c/cterminal"&gt;ﾀｰﾐﾅﾙ&lt;/a&gt; / &lt;a href="/catalog/c/cconn"&gt;ｺﾈｸﾀ&lt;/a&gt; / &lt;a href="/catalog/c/cbattca"&gt;電池ｹｰｽ&lt;/a&gt; / &lt;a href="/catalog/c/cbatt_dT"&gt;電池一般&lt;/a&gt;(&lt;a href="/catalog/c/cbatpb"&gt;鉛蓄電池&lt;/a&gt; &lt;a href="/catalog/e/ealkarine"&gt;ｱﾙｶﾘ&lt;/a&gt; &lt;a href="/catalog/c/cbatcoin"&gt;ﾎﾞﾀﾝ･ｺｲﾝ&lt;/a&gt;) / &lt;a href="/catalog/c/cheat"&gt;放熱器&lt;/a&gt; / &lt;a href="/catalog/c/cparts_dT"&gt;ﾊﾟｰﾂ&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		
+		&lt;tr&gt;
+			&lt;td height="20" class="linecart2"&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
+
+&lt;!--syosai end--&gt;
+&lt;!--cartbox start--&gt;
+&lt;div class="order_g"&gt;[P-15969]　表面実装用タクトスイッチ　ＴＳ－０６１０４　&lt;A href="/catalog/faq/faq.aspx#10020"&gt;&lt;img src="/img/sys/ic_aaal.gif" alt="通常在庫商品"&gt;&lt;/A&gt;&lt;br&gt;
+&lt;table width="950" border="0" cellpadding="0" cellspacing="1"&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+		
+		&lt;span class="f14b"&gt;1個&lt;/span&gt;
+		&lt;span class="f14b"&gt;￥20&lt;/span&gt;（税込）
+		
+		
+		&lt;/td&gt;</description>
+<gates>
+<gate name="G$1" symbol="TS-0606-F-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TS-06104">
+<connects>
+<connect gate="G$1" pin="T1" pad="A1"/>
+<connect gate="G$1" pin="T2" pad="A2"/>
+<connect gate="G$1" pin="T3" pad="B1"/>
+<connect gate="G$1" pin="T4" pad="B2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29147268/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/4" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="92" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9764,6 +10062,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY27" library="supply" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="RESET" library="タクトスイッチ" deviceset="TS-06104" device="" package3d_urn="urn:adsk.eagle:package:29147268/2"/>
+<part name="SUPPLY30" library="supply" deviceset="GND" device=""/>
+<part name="POWER" library="pinhead" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="SUPPLY31" library="supply" deviceset="+5V" device=""/>
+<part name="U$4" library="supply" deviceset="+3.3V" device=""/>
+<part name="SUPPLY32" library="MyParts" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10022,6 +10326,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY29" gate="GND" x="153.67" y="158.75" smashed="yes">
 <attribute name="VALUE" x="151.765" y="155.575" size="1.778" layer="96"/>
 </instance>
+<instance part="RESET" gate="G$1" x="189.23" y="76.2" smashed="yes">
+<attribute name="NAME" x="185.42" y="69.85" size="1.27" layer="95"/>
+<attribute name="VALUE" x="185.42" y="67.31" size="1.27" layer="96"/>
+</instance>
+<instance part="SUPPLY30" gate="GND" x="181.61" y="66.04" smashed="yes">
+<attribute name="VALUE" x="179.705" y="62.865" size="1.778" layer="96"/>
+</instance>
+<instance part="POWER" gate="A" x="193.04" y="121.92" smashed="yes">
+<attribute name="NAME" x="186.69" y="127.635" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.69" y="114.3" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY31" gate="+5V" x="185.42" y="132.08" smashed="yes">
+<attribute name="VALUE" x="183.515" y="135.255" size="1.778" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="181.61" y="135.89" smashed="yes">
+<attribute name="VALUE" x="179.705" y="139.065" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY32" gate="GND" x="185.42" y="111.76" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10146,6 +10468,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="157.48" y1="165.1" x2="153.67" y2="165.1" width="0.1524" layer="91"/>
 <junction x="153.67" y="165.1"/>
 </segment>
+<segment>
+<pinref part="SUPPLY30" gate="GND" pin="GND"/>
+<pinref part="RESET" gate="G$1" pin="T3"/>
+<wire x1="181.61" y1="68.58" x2="181.61" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="G$1" pin="T4"/>
+<wire x1="196.85" y1="73.66" x2="181.61" y2="73.66" width="0.1524" layer="91"/>
+<junction x="181.61" y="73.66"/>
+</segment>
+<segment>
+<pinref part="POWER" gate="A" pin="3"/>
+<wire x1="190.5" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="119.38" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -10202,6 +10538,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY26" gate="+5V" pin="+5V"/>
 <junction x="160.02" y="83.82"/>
 </segment>
+<segment>
+<pinref part="SUPPLY31" gate="+5V" pin="+5V"/>
+<pinref part="POWER" gate="A" pin="1"/>
+<wire x1="185.42" y1="129.54" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
@@ -10212,6 +10554,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="+3.3V"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="+3.3V"/>
+<pinref part="POWER" gate="A" pin="2"/>
+<wire x1="181.61" y1="133.35" x2="181.61" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10321,6 +10669,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="156.21" y1="261.62" x2="139.7" y2="261.62" width="0.1524" layer="91"/>
 <junction x="156.21" y="261.62"/>
 <label x="139.7" y="261.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RESET" gate="G$1" pin="T1"/>
+<wire x1="181.61" y1="78.74" x2="181.61" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="83.82" x2="196.85" y2="83.82" width="0.1524" layer="91"/>
+<label x="182.88" y="83.82" size="1.778" layer="95"/>
+<pinref part="RESET" gate="G$1" pin="T2"/>
+<wire x1="181.61" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<junction x="181.61" y="78.74"/>
+<wire x1="196.85" y1="78.74" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SE_SW" class="0">
