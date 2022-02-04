@@ -10793,16 +10793,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="PCRX_ICTX" class="0">
 <segment>
-<pinref part="IC2" gate="B" pin="I1"/>
-<wire x1="171.45" y1="196.85" x2="173.99" y2="196.85" width="0.1524" layer="91"/>
-<wire x1="173.99" y1="196.85" x2="173.99" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="I1"/>
-<wire x1="173.99" y1="208.28" x2="171.45" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="208.28" x2="173.99" y2="208.28" width="0.1524" layer="91"/>
-<junction x="173.99" y="208.28"/>
-<label x="190.5" y="208.28" size="1.778" layer="95" rot="MR0"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="1"/>
 <wire x1="120.65" y1="149.86" x2="110.49" y2="149.86" width="0.1524" layer="91"/>
 <label x="111.76" y="149.86" size="1.778" layer="95"/>
@@ -10813,29 +10803,39 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="58.42" y1="62.23" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 <label x="57.15" y="62.23" size="1.778" layer="95" rot="R90"/>
 </segment>
-</net>
-<net name="WRITER_TX" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="O"/>
-<wire x1="156.21" y1="210.82" x2="140.97" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="210.82" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
 <label x="153.67" y="210.82" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="B" pin="O"/>
+<wire x1="144.78" y1="210.82" x2="140.97" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="199.39" x2="144.78" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="199.39" x2="144.78" y2="210.82" width="0.1524" layer="91"/>
+<junction x="144.78" y="210.82"/>
 </segment>
+</net>
+<net name="WRITER_TX" class="0">
 <segment>
 <pinref part="IC1" gate="1" pin="DIGITAL_1(TX)"/>
 <wire x1="110.49" y1="241.3" x2="120.65" y2="241.3" width="0.1524" layer="91"/>
 <label x="111.76" y="241.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="A" pin="I1"/>
+<wire x1="190.5" y1="208.28" x2="171.45" y2="208.28" width="0.1524" layer="91"/>
+<label x="190.5" y="208.28" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="SE_TX" class="0">
-<segment>
-<pinref part="IC2" gate="B" pin="O"/>
-<wire x1="156.21" y1="199.39" x2="140.97" y2="199.39" width="0.1524" layer="91"/>
-<label x="153.67" y="199.39" size="1.778" layer="95" rot="MR0"/>
-</segment>
 <segment>
 <pinref part="SEPR" gate="A" pin="3"/>
 <wire x1="156.21" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
 <label x="134.62" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="B" pin="I1"/>
+<wire x1="171.45" y1="196.85" x2="190.5" y2="196.85" width="0.1524" layer="91"/>
+<label x="181.61" y="196.85" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEARTBEAT" class="0">
