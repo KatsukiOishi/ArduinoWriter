@@ -10763,9 +10763,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="176.53" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SEPR" gate="A" pin="1"/>
-<wire x1="156.21" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
-<label x="134.62" y="129.54" size="1.778" layer="95"/>
+<pinref part="SEPR" gate="A" pin="3"/>
+<wire x1="156.21" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<label x="134.62" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PCTX_ICRX" class="0">
@@ -10828,14 +10828,14 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="SE_TX" class="0">
 <segment>
-<pinref part="SEPR" gate="A" pin="3"/>
-<wire x1="156.21" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<label x="134.62" y="127" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="B" pin="I1"/>
 <wire x1="171.45" y1="196.85" x2="190.5" y2="196.85" width="0.1524" layer="91"/>
 <label x="181.61" y="196.85" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SEPR" gate="A" pin="1"/>
+<wire x1="156.21" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<label x="134.62" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="HEARTBEAT" class="0">
@@ -10920,13 +10920,17 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="ICSP" gate="A" pin="2"/>
 <wire x1="163.83" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="111.76" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="SEPR" gate="A" pin="2"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="129.54" x2="172.72" y2="138.43" width="0.1524" layer="91"/>
 <wire x1="163.83" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 <junction x="172.72" y="129.54"/>
 <wire x1="172.72" y1="138.43" x2="154.94" y2="138.43" width="0.1524" layer="91"/>
 <label x="154.94" y="138.43" size="1.778" layer="95"/>
+<pinref part="SEPR" gate="A" pin="4"/>
+<wire x1="163.83" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<junction x="172.72" y="127"/>
 </segment>
 <segment>
 <pinref part="PROG_SUP" gate="G$1" pin="NO"/>
